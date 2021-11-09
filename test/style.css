@@ -1,0 +1,58 @@
+p{
+    color: red;
+}
+a{
+    color:aqua;
+}
+div{
+    height: 10px;
+    width: 20px;
+    color:brown;
+    box-shadow: 20px 15px 5px 0px  red;
+}
+.test{
+    color:chocolate;
+    box-shadow: 20px 15px 5px 0px  red;
+}
+.test2{
+    color: rgb(168, 214, 214);
+}
+*{
+    color: pink;
+}
+input[type="text"]{
+    color: black;
+}
+div > h1{
+    color: darkorange;
+}
+input:hover{
+    color:darkslateblue;
+}
+input:active{
+    color:turquoise;
+}
+button:focus{
+    color: blanchedalmond;
+}
+body{
+    transition: background-color 2s ease-out, font-size 1s ease-in 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize;
+    border: 25px solid #DC143C;
+    border-radius: 20%;
+    background-repeat: repeat;
+    background-position: center;
+    background:url('https://gifimage.net/wp-content/uploads/2017/09/anime-run-gif-2.gif') rgb(58, 58, 82);
+    background-size: 50px 20px;
+    background-blend-mode: soft-light;
+    float: left;
+    clear: left;
+    box-shadow: 20px 15px 5px 0px  red;
+
+}
+

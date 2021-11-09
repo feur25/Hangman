@@ -1,0 +1,74 @@
+body{
+    background-image: url("21.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button_container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+}
+
+.description, .link {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+.description {
+  font-size: 50px;
+  color: gold;
+}
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn:hover{
+  text-decoration: none;
+  transition: font-weight 2s font-size 2s  border-radius 2s;
+  font-weight: 1000;
+  font-size: 30px;
+  border-radius: 100%;
+}
+.cookies-card p{
+  animation-duration: 3s;
+  animation-name: bounce;
+}
+@keyframes bounce {
+  from {
+    margin-top: 200%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+.cookies-card {
+  position: fixed;
+  margin: 40px 10px auto 765px;
+  width: 350px;
+  background-color: #242424;
+  padding: 1.5em;
+}
+
+.cookies-card * {
+  color: #fff;
+}

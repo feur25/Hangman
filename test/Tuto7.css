@@ -1,0 +1,65 @@
+body{
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cookies-card {
+    filter: blur(0.px);
+    opacity: 1;
+    border-radius: 10%;
+    border-color: white;
+    margin: 100px 20px 0px 800px;
+    text-align: center;
+    width: 350px;
+    background-color: #242424;
+    padding: 1.5em;
+  }
+.cookies-card p {
+    color: white;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-right: auto;
+      width: 100%;
+    }
+  }
+  .boutton input{
+    font-family: Georgia, serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    word-spacing: -1.6px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    cursor: pointer;
+    border-radius: 20%;
+    background-color: aqua;
+    color: red;
+    height: 100px;
+    font-weight: bold;
+  }
+#test1{
+    color: white;
+      background-image: url("7.jpg");
+      font-family: Fantasy;
+      font-size: 20px;
+  }
+#test2{
+    font-family: Fantasy;
+    font-size: 20px;
+    color: white;
+    background-image: url("11.jpg");
+}

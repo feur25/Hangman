@@ -1,0 +1,64 @@
+body{
+    background-image: url("7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cookies-card {
+  border-radius: 10%;
+  border-color: white;
+  margin: 100px 20px 0px 800px;
+  text-align: center;
+  width: 350px;
+  background-color: #242424;
+  padding: 1.5em;
+}
+.cookies-card p {
+  color: white;
+  animation-duration: 3s;
+  animation-name: bounce;
+}
+#surcouche{
+  display: none;
+  position: fixed;               
+  top: 0; right:0; bottom:0; left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index : 1000;
+  }
+  #case{
+      display : none;
+  }
+  #case:checked + #surcouche{
+      display: block;
+  }
+  input{
+      cursor: pointer;
+  }
+  input{
+      display: none;
+      visibility: hidden;
+      padding: 5px 10px;
+      background-color: #3636A3;
+      border-radius: 10%;
+      color : #fff;
+      position: relative;
+      top: 180px;
+      left :0px;
+      z-index: 1005;
+  }
+  input:hover{
+    background-image: url("2.jpg");
+    color: RED;
+  }
+  #msgbox{
+      width: 300px;
+      height: 200px;
+      padding: 15px;
+      position: absolute;
+      top: 25%;
+      left: 34%;
+      background-color: black;
+      border: 10px solid #aaa;
+  }
+

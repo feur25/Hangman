@@ -1,0 +1,168 @@
+body{
+    background-image: url("16.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.puissant {
+  width: 100px;
+  height: 100px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  position: relative;
+  animation: mymove 5s infinite;
+  border-radius: 100%;
+}
+.power{
+  margin:200px 50px 20px 450px;
+}
+.power iframe{
+  visibility: hidden;
+}
+.puissant p{
+  visibility: hidden;
+}
+input{
+  visibility: hidden;
+  margin: -100px;
+}
+
+@keyframes mymove {
+  from {top: -700px;}
+  to {top: 150px;}
+}
+.power p{
+margin: -380px auto auto 230px;
+color: black;
+animation-duration: 3s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 300%;
+}
+
+to {
+  margin-right: auto;
+  width: 100%;
+}
+}
+.power span{
+  margin:200px 50px 20px 450px;
+}
+#surcouche{
+  display: none;
+  position: fixed;               
+  top: 0; right:0; bottom:0; left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index : 1000;
+  }
+  #case{
+      display : none;
+  }
+  #case:checked + #surcouche{
+      display: block;
+  }
+  input{
+    cursor: pointer;
+      display: none;
+      visibility: hidden;
+      padding: 5px 10px;
+      background-color: #3636A3;
+      border-radius: 10%;
+      color : #fff;
+      position: relative;
+      top: 180px;
+      left :0px;
+      z-index: 1005;
+  }
+  input:hover{
+    background-image: url("2.jpg");
+    color: RED;
+  }
+  #msgbox{
+      width: 300px;
+      height: 200px;
+      padding: 15px;
+      position: absolute;
+      top: 25%;
+      left: 34%;
+      background-color: white;
+      border: 10px solid #aaa;
+  }
+  #msgbox p{
+    animation-duration: none;
+animation-name: none;
+    margin:0px 50px 20px 0px;
+  }
+  #surcouche2{
+    display: none;
+    position: fixed;               
+    top: 0; right:0; bottom:0; left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index : 1000;
+    }
+    #case2{
+        display : none;
+    }
+    #case2:checked + #surcouche2{
+        display: block;
+    }
+    label{
+        cursor: pointer;
+    }
+    .labelButon{
+      padding: 5px 10px;
+      background-color: #3636A3;
+      color : #fff;
+      position: relative;
+      top: 120px;
+      left :220px;
+      z-index: 1005;
+  }
+  .labelButon:hover{
+    padding: 5px 10px;
+    background-color: red;
+    color: green;
+    color : #fff;
+    position: relative;
+    top: 120px;
+    left :220px;
+    z-index: 1005;
+}
+    .labelButon2{
+        padding: 5px 10px;
+        background-color: #3636A3;
+        color : #fff;
+        position: relative;
+        top: 120px;
+        left :210px;
+        z-index: 1005;
+    }
+    #msgbox2{
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+        position: absolute;
+        top: 25%;
+        left: 34%;
+        background-color: white;
+        border: 10px solid #aaa;
+    }
+    #msgbox2 p{
+      animation-duration: none;
+  animation-name: none;
+      margin:0px 50px 20px 0px;
+    }
+    #msgbox2 a{
+      padding: 5px 10px;
+      background-color: #3636A3;
+      color : #fff;
+      position: relative;
+      top: 120px;
+      left :210px;
+      z-index: 1005;
+  }

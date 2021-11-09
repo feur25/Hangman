@@ -1,0 +1,22 @@
+CSS
+C'est Information pourront être retrouver dans le diaporama au 83ème slice
+float: left; permet de mettre sur le coter d'une image, un texte, qui coulera a côter
+clear: left; permettra d'annuler cette action sur une partie du code
+display: none; cache en apparence le code
+Exemple:
+button:hover + div{
+	display: none;
+}
+-------------------------------------------------------------------------------------------
+Donner du mouvement :
+
+naw{
+	position: relative;
+	left: 100px;
+	background-color: aqua;
+	transition all
+}
+button:hover + div{
+	left:0
+}
+	

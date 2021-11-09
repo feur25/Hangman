@@ -1,0 +1,214 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  body{
+    background-image: url("spawn.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .test{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+.test2 input:focus{
+    background-image: url("https://data.whicdn.com/images/297024308/original.gif");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: auto;
+    color: aqua;
+  }
+  .test2 input{
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color:brown;/*couleur du fond du boutton*/
+    width: auto; /*taille par defaut prendra la taille du text*/
+    height: 100px; /* pour la hauteur ne touche pas a la largeur qu est ici en auto dépend donc du text*/
+    background-size: 200px;
+    border-radius: 20px; /*pour faire une boutton un peut plus arrondi pas que rectangulaire*/
+  }
+.test2 div {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.test2 div:hover {
+  text-decoration: none;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  /*transform: rotate(180deg);*/
+}
+.test3 span{
+  text-decoration: underline ;
+  text-decoration: overline;
+  color: white;
+  transition: color red 2s ;
+  margin: 0px 20px 0px 890px;
+  text-decoration: blink;
+}
+.test2 input:hover{
+      transition-delay: 3s;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-color: rgb(12, 68, 68);
+      color: rgb(238, 238, 13);
+      opacity: 1;
+      background: #1ec7e6;
+      transition: width 2s, height 2s, transform 2s;
+      border-top: #1ABC9C;
+      border-radius: 25px;
+      width: auto;
+      height: 180px;
+      font-size: 35px;
+      font-family: Jazz LET, fantasy;
+      text-decoration: none;
+      text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  .cookies-card p{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .cookies-card {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    width: 350px;
+    background-color: #242424;
+    padding: 1.5em;
+  }
+  
+  .cookies-card * {
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 1.6em;
+    letter-spacing: 0.4px;
+    margin-bottom: 0.5em;
+  }
+  
+  .info {
+    line-height: 1.4em;
+    letter-spacing: 0.4px;
+    margin-bottom: 2em;
+  }
+  
+  .cta {
+    border: none;
+    outline: none;
+    padding: 0.8em 1.5em;
+    background-color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  }
+  
+  .cta:hover {
+    background-color: #3c9e66;
+  }
+  
+  .cookies-card a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    transition: color 0.4s;
+  }
+  
+  .cookies-card a.settings {
+    color: #bbb;
+    margin-left: 1em;
+    border-bottom: none;
+  }
+  .cookies-card a:hover {
+    color: #3c9e66;
+  }
+  .cta:focus{
+    transition: background-color 2s;
+    background-color: rgb(134, 54, 54);
+  }
+  #surcouche{
+    display: none;
+    position: fixed;               
+    top: 0; right:0; bottom:0; left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index : 1000;
+    }
+    #case{
+        display : none;
+    }
+    #case:checked + #surcouche{
+        display: block;
+    }
+    label{
+        cursor: pointer;
+    }
+    .labelButon{
+        padding: 5px 10px;
+        background-color: #3636A3;
+        color : #fff;
+        position: relative;
+        top: 180px;
+        left :220px;
+        z-index: 1005;
+    }
+    #msgbox{
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+        position: absolute;
+        top: 25%;
+        left: 34%;
+        background-color: white;
+        border: 10px solid #aaa;
+    }
+    .container {
+      width:960px;
+      margin:0 auto;
+      padding:10px 25px;
+      border:1px solid #ccc;
+      background:#fff; 
+    }
+    .title {
+      font-family: "Montserrat";
+      text-align: center;
+      color: #FFF;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      letter-spacing: 1px;
+    }
+    
+    h1 {
+      background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+      background-size: cover;
+      color: transparent;
+      -moz-background-clip: text;
+      -webkit-background-clip: text;
+      text-transform: uppercase;
+      font-size: 120px;
+    }
+    

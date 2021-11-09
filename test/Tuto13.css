@@ -1,0 +1,138 @@
+body{
+    background-image: url("6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cookies-card p{
+  animation-duration: 3s;
+  animation-name: bounce;
+}
+@keyframes bounce {
+  from {
+    margin-top: 200%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+.cookies-card {
+  position: fixed;
+  margin: 40px 10px auto 765px;
+  width: 350px;
+  background-color: #242424;
+  padding: 1.5em;
+}
+
+.cookies-card * {
+  color: #fff;
+}
+.test5 label:focus{
+  margin: -1000em;
+}
+
+#surcouche{
+  display: none;
+  position: fixed;               
+  top: 0; right:0; bottom:0; left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index : 1000;
+  }
+  #case{
+      display : none;
+  }
+  #case:checked + #surcouche{
+      display: block;
+  }
+  label{
+      cursor: pointer;
+  }
+  .labelButon{
+      padding: 5px 10px;
+      background-color: #3636A3;
+      color : #fff;
+      position: relative;
+      top: 180px;
+      left :220px;
+      z-index: 1005;
+  }
+  .test5 p {
+    position: fixed;
+    margin: 40px 10px auto 765px;
+    width: 350px;
+    background-color: #242424;
+    padding: 1.5em;
+  }
+  .test5 #mort{
+    position: fixed;
+    margin: 400px 10px auto 780px;
+    width: 350px;
+    background-color: #242424;
+    padding: 1.5em;
+  }
+  .test5 #mort1{
+    position: fixed;
+    margin: 500px 10px auto 780px;
+    width: 350px;
+    background-color: #242424;
+    padding: 1.5em;
+  }
+  .test5 #mort2{
+    position: fixed;
+    margin: 600px 10px auto 780px;
+    width: 350px;
+    background-color: #242424;
+    padding: 1.5em;
+  }
+  .test5 #mort{
+    animation-duration: 5s;
+    animation-name: test2;
+
+  }
+      @keyframes test2 {
+    from {
+      margin-top: 200%;
+      width: 300%;
+    }
+  
+    to {
+      margin-top: 400px;
+      width: 350px;
+    }
+  }
+  .test5 #mort1{
+    animation-duration: 6s;
+    animation-name: test3;
+
+  }
+      @keyframes test3 {
+    from {
+      margin-top: 200%;
+      width: 300%;
+    }
+  
+    to {
+      margin-top: 500px;
+      width: 350px;
+    }
+  }
+  .test5 #mort2{
+    animation-duration: 7s;
+    animation-name: test;
+
+  }
+      @keyframes test {
+    from {
+      margin-top: 200%;
+      width: 300%;
+    }
+  
+    to {
+      margin-top: 600px;
+      width: 350px;
+    }
+  }

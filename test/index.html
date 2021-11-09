@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+    <head>
+        <!--En css-->
+        <!--div > h1 tous les div qui ont pour enfant h1-->
+        <!--div p   tous les p qui ont pour ancêtre un div-->
+        <!--h1 + div sélectionne juste les frère direct-->
+        <!--  h1 ~ div les frères suivant-->
+
+
+        <!--rem sur navigateur sur chrome 16 pixels par exemple-->
+        <!--vh vw
+Se réfère au viewport de la fenêtre
+1 vh correspond à 1% de la hauteur de la fenêtre
+1 vw correspond à 1% de la largeur de la fenêtre
+-->
+        <!--body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+plusieurs coix de police si le navigateur ne supporte pas le premier il prend le deuxième ou le troixième-->
+        <audio></audio>
+        <meta charset="UTF-8" />
+        <link href="style.css" rel="stylesheet">
+        <script>
+              console.log("Hello")
+            </script>
+            
+        <script src="main.js"></script>            
+        <meta name="robots" content="index, follow">
+        <meta property="og:url" content="https://alan.com">
+        <meta property="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Fait par un con" content="Le cours de HTML a pour but de vous donner les bases du Web">
+        <!--vous voulez un commentaire sur les meta ?? Je vous emmerde-->
+        <!-- Ceci est un commentaire -->
+        <p>meta charset c'est l'encodage</p>
+        <title>Fuck</title>
+        <p class = "le_nom">hello!</p>
+        <p id="test">hello !</p>
+        <a href="http://www.google.com">Cliquez ici !</a>
+    </head>
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+            </style>
+        <!--les class lié au css pour appeler une class en css il faut mettre un ".le nom de la classe"-->
+        <div class="test">Test</div> <!--ordre de priorité sur les id la class est inférieur donc c'est la couleur de l'id en premier-->
+        <div class="class1"><p>241e</p></div>
+        <div class="test2">trying</div>
+
+
+        <h1>Hello avec Div</h1> <!--le titre le plus important-->
+        <div>Hello</div>
+        <!--div permet un retour un la ligne-->
+        <div>Hello</div>
+        <strong>test</strong> <!--Signifie une mise en valeur. Ne signifie pas mettre en gras !-->
+        <em>test2</em><!--Signifie une mise en évidence (emphase).Ne signifie pas mettre en italique !-->
+        <h2>Hello avec span</h2> <!--le titre le deuxième plus important-->
+        <span>Hello</span>
+        <span>Hello</span>
+        <!--span ne permet pas de retour a la ligne mais fait un espace entre les deux span ils ont bien différencier-->
+        <img src="https://hddesktopwallpapers.in/wp-content/uploads/2015/09/chipmunk-picture.jpg" alt="Machiene" />
+        <p>YTrackが大好きです</p>
+        <p>On dit que 3 &gt; > à 2</p>
+        <!--lien externe-->
+        <br>
+        <a href="http://www.google.fr" title="Google"><div>Lien vers google</div></a>
+    </br>
+    <br>
+        <a href="http://www.google.fr" target="blanc">Lien vers google</a>
+</br>
+        <!--ouvre une autre page au lien de remplacer celle de basse, pour la garder dans un autre onglet au lieu de faire des retour pour retourner sur la page (target = "blanc")-->
+        <!--lien interne-->
+        <a href="C:\Users\dofus\Desktop\test\page1.html"><div>Page 1</div></a>
+        <h3 id="news">News</h3>
+        <a href="tel:0611960926">Téléphone</a>
+        <a href="mailto:alan.philipiert@ynov.com">Email</a>
+        <ul>
+            <li>Accueil</li>
+            <li>Article</li>
+            <li>Contact</li>
+        </ul>
+        <ol>
+            <li>Accueil</li>
+            <li>Article</li>
+            <li>Contact</li>
+        </ol>
+        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=85%20rue%20des%20oliviers&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <table>
+                <tr>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                </tr>
+                <tr>
+                    <td>a1</td>
+                    <td>b1</td>
+                    <td>c1</td>
+                </tr>
+            </table>
+            <!--fait un tableau-->
+            <table>
+                    <caption>Axel</caption>
+                    <tr>
+                        <th colspan="2"></th>
+                <!--prend le plus petit élément vers la gauche la on demmande de le faire deux fois donc ça fait une cellule plus grande-->
+                <!--Et rowspan : permet de fusionner des lignes-->
+                        <th>a</th>
+                    </tr>
+                    <tr>
+                        <td>a1</td>
+                        <td>b1</td>
+                        <td>c1</td>
+                    </tr>
+                </table>
+                <fieldset><!--balise qui encadre le formulaire-->
+                <legend>information</legend>
+                <form method="post" action="traitement.php"></form>
+                <input type="text" name="nom">
+                <label for="nom"><div>Nom</div></label>
+                <input value="" placeholder="J'encule" maxlenght = 2 type="text" id="nom" name="nom">
+                <!--possède la valeur alan a l'intérieur par default-->
+                <label for="prenom"><div>Prenom</div></label>
+                <input value=""  placeholder ="ta m***" maxlenght= 10 type="text" id="prenom" name="prenom">
+                <!--coché/ décoché une case, par default thon est cocher-->
+                </fieldset>
+                <div>
+                        <input type="checkbox" id="thon" name="poisson" checked>
+                    <!--checked cocher par default-->
+                        <label for="thon">Thon</label>
+                    </div>
+                      
+                    <div>
+                        <input type="checkbox" id="saumon" name="poisson">
+                        <label for="saumon">Saumon</label>
+                    </div>
+                    <!--checkbox plusieurs choix-->
+                    <div>
+                            <input type="radio" id="cb" name="payment" value="cb"
+                                   checked>
+                            <label for="cb">CB</label>
+                        </div>
+                          
+                        <div>
+                            <input type="radio" id="cash" name="payment" value="cash">
+                            <label for="cash">Cash</label>
+                        </div>
+                        <!--un seul choix-->
+                        <input type="submit" value="Envoyer"/>
+                        <input type="reset" value="Réinitiliser"/>  
+                        <input type="button" value="test"/>
+                        <button type="button">Appuyez</button>
+                        <button type="submit">Envoyez</button>
+                        <button type="reset">Réinitialisez</button>
+                        <input type="file" name="myfile" accept=".jpg" multiple>
+                        <br>
+                        <input type="password" name="mdp" id="mdp">
+                        <!--mot de passe scripter-->
+                    </br>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <select id="menu-select">
+                          <optgroup label="Sushi"><!--titre non sélectionable-->
+                              <option value="thon">Thon</option><!--menu déroulant-->
+                              <option value="saumon" selected>Saumon</option><!--sélectionné par default-->
+                              <option value="crevette">Crevette</option>
+                          </optgroup>
+                          <optgroup label="Brochettes"><!--titre non sélectionable-->
+                              <option value="poulet" disabled>Poulet</option>
+                              <option value="porc">Porc</option>
+                          </optgroup>
+                        </select>
+                        <a href="#news">Vers les News</a> <!--remonte jusqu'au news lié a la page-->                        
+
+    </body>
+</html>
