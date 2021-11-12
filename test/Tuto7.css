@@ -10,7 +10,7 @@ body{
     opacity: 1;
     border-radius: 10%;
     border-color: white;
-    margin: 100px 20px 0px 800px;
+    margin: 100px 20px 0px 550px;
     text-align: center;
     width: 350px;
     background-color: #242424;
@@ -62,4 +62,16 @@ body{
     font-size: 20px;
     color: white;
     background-image: url("11.jpg");
+}
+@media screen and (min-width: 320px) and (max-width: 1400px){
+  .cookies-card {
+    margin: 100px 20px 0px 10px;
+    width: auto;
+  }
+  #test1{
+    color: white;
+      background-image: url("7.jpg");
+      font-family: Fantasy;
+      font-size: 15px;
+  }
 }

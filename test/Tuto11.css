@@ -154,7 +154,7 @@ animation-name: none;
     }
     #msgbox2 p{
       animation-duration: none;
-  animation-name: none;
+      animation-name: none;
       margin:0px 50px 20px 0px;
     }
     #msgbox2 a{
@@ -165,4 +165,142 @@ animation-name: none;
       top: 120px;
       left :210px;
       z-index: 1005;
+  }
+  @media screen and (min-width: 768px) and (max-width: 850px){
+    img{
+      margin:-200px auto auto -100px;
+      width: 550px;
+      height: 700px;
+    }
+    .power p{
+      margin: -580px auto auto 50px;
+      color: black;
+      font-size: 20px;
+      animation-duration: 3s;
+      animation-name: slidein;
+      }
+      .labelButon{
+      top:85px;
+    }
+    .labelButon:hover{
+      top:85px;
+    }
+    .power span{
+      margin:100px 50px 20px 50px;
+    }
+    @keyframes mymove {
+      from {top: -5000px;}
+      to {top: 150px;}
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 1024px){
+    img{
+      margin:-300px auto auto -280px;
+      width: 900px;
+      height: 700px;
+    }
+    .power p{
+      margin: -580px auto auto -180px;
+      color: black;
+      font-size: 25px;
+      animation-duration: 3s;
+      animation-name: slidein;
+      }
+      .labelButon{
+      top:85px;
+    }
+    .labelButon:hover{
+      top:85px;
+    }
+    .power span{
+      margin:100px 50px 20px 50px;
+    }
+    @keyframes mymove {
+      from {top: -5000px;}
+      to {top: 150px;}
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 670px){
+      img{
+        margin:-300px auto auto -380px;
+        width: 600px;
+        height: 1200px;
+      }
+      .power p{
+        margin: -980px auto auto -300px;
+        color: black;
+        font-size: 25px;
+        animation-duration: 3s;
+        animation-name: slidein;
+        }
+        .labelButon{
+        top:85px;
+      }
+      .labelButon:hover{
+        top:85px;
+      }
+      .power span{
+        margin:100px 50px 20px -300px;
+        font-size: 28px;
+      }
+      @keyframes mymove {
+        from {top: -5000px;}
+        to {top: 150px;}
+      }
+  }
+  @media screen and (min-width: 670px) and (max-width: 800px){
+    img{
+      margin:-300px auto auto -380px;
+      width: 740px;
+      height: 800px;
+    }
+    .power p{
+      margin: -620px auto auto -300px;
+      color: black;
+      font-size: 25px;
+      animation-duration: 3s;
+      animation-name: slidein;
+      }
+      .labelButon{
+      top:85px;
+    }
+    .labelButon:hover{
+      top:85px;
+    }
+    .power span{
+      margin:100px 50px 20px -300px;
+      font-size: 28px;
+    }
+    @keyframes mymove {
+      from {top: -5000px;}
+      to {top: 150px;}
+    }
+}
+  @media screen and (min-width: 1024px) and (max-width: 1440px){
+    img{
+      margin:-300px auto auto -280px;
+      width: 1300px;
+      height: 700px;
+    }
+    .power p{
+      margin: -580px auto auto -120px;
+      color: black;
+      font-size: 25px;
+      animation-duration: 3s;
+      animation-name: slidein;
+      }
+      .labelButon{
+      top:85px;
+    }
+    .labelButon:hover{
+      top:85px;
+    }
+    .power span{
+      margin:100px 50px 20px 50px;
+      font-size: 35px;
+    }
+    @keyframes mymove {
+      from {top: -5000px;}
+      to {top: 150px;}
+    }
   }

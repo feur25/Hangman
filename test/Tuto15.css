@@ -38,7 +38,9 @@ body{
   margin: 0 auto;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
-
+audio{
+  margin: 0px 20px 0px 810px;
+}
 .btn:hover{
   text-decoration: none;
   transition: font-weight 2s font-size 2s  border-radius 2s;
@@ -71,4 +73,154 @@ body{
 
 .cookies-card * {
   color: #fff;
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+  .cookies-card {
+    margin:40px auto auto -10px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 50px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 550px){
+  .cookies-card {
+    margin:40px auto auto 10px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 60px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 850px){
+  .cookies-card {
+    margin:40px auto auto 170px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 210px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1024px){
+  .cookies-card {
+    margin:40px auto auto 330px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 370px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+  .cookies-card {
+    margin:40px auto auto 540px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 590px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
 }

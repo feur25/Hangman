@@ -21,6 +21,7 @@ body{
   font-size: 35px;
 }
 .btn {
+  margin: auto auto auto auto;
   border: none;
   display: block;
   text-align: center;
@@ -48,6 +49,7 @@ body{
 .cookies-card p{
   animation-duration: 3s;
   animation-name: bounce;
+  font-size: auto;
 }
 @keyframes bounce {
   from {
@@ -66,8 +68,162 @@ body{
   width: 350px;
   background-color: #242424;
   padding: 1.5em;
+  height:auto;
+}
+audio{
+  margin: 0px 20px 0px 810px;
 }
 
 .cookies-card * {
   color: #fff;
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+  .cookies-card {
+    margin:40px auto auto -10px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 50px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 550px){
+  .cookies-card {
+    margin:40px auto auto 10px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 60px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 850px){
+  .cookies-card {
+    margin:40px auto auto 170px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 210px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1024px){
+  .cookies-card {
+    margin:40px auto auto 330px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 370px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+  .cookies-card {
+    margin:40px auto auto 540px;
+    width: 350px;
+  }
+  .cookies-card p{
+    animation-duration: 5s;
+    font-size: 20px;
+  }
+  audio{
+    margin:0px 10px auto 590px;
+  }
+  .description, .link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  .button_container {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 50%;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .btn {
+    font-size: 15px;
+    margin: -200 auto auto 50px;
+  }
 }

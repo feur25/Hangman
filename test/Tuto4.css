@@ -9,6 +9,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
   }
   .test{
@@ -34,6 +35,7 @@ body, html {
     height: 100px; /* pour la hauteur ne touche pas a la largeur qu est ici en auto dépend donc du text*/
     background-size: 200px;
     border-radius: 20px; /*pour faire une boutton un peut plus arrondi pas que rectangulaire*/
+    margin: -500px 20px 0px 850px;
   }
 .test2 div {
   text-decoration: none;
@@ -166,6 +168,9 @@ body, html {
     label{
         cursor: pointer;
     }
+    .audio{
+      margin: 0px 20px 0px 810px;
+    }
     .labelButon{
         padding: 5px 10px;
         background-color: #3636A3;
@@ -211,4 +216,121 @@ body, html {
       text-transform: uppercase;
       font-size: 120px;
     }
-    
+    audio{
+      margin: auto auto auto 815px;
+    }
+ 
+@media screen and (min-width:320px) and (max-width:767px) {
+  .test2 input:hover{
+    width: auto;
+    height: 80px;
+    font-size: 25px;
+}
+  h1{
+    font-size: 40px;
+    margin: 0px auto auto 35px;
+  }
+  .cookies-card p{
+    font-size: 10px;
+  }
+  .test2 input{
+    display: block;
+    width: auto; 
+    height: 50px; 
+    margin: -700px 20px 0px 30px;
+  }
+  audio{
+    margin: 0px auto auto 0px;
+  }
+  label{
+    margin: 40px auto auto -820px;
+  }
+  #msgbox{
+    position: absolute;
+    width: 170px;
+    height: 250px;
+    margin: 0px auto auto -50px;
+}
+  .labelButon{
+    top: 240px;
+    margin: auto auto auto -120px;
+}
+.cookies-card {
+  position: fixed;
+  bottom: 2em;
+  left: 0em;
+  top:500px;
+  width: 250px;
+  background-color: #242424;
+}
+
+.cookies-card * {
+  height: 20%;
+  color: white;
+}
+
+
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .test2 input:hover{
+    width: auto;
+    height: 80px;
+    font-size: 25px;
+}
+  .cookies-card p{
+    font-size: 10px;
+  }
+  .test2 input{
+    display: block;
+    width: auto; 
+    height: 50px; 
+    margin: -300px auto auto 400px;
+  }
+  .test3 span{
+    margin: 0px 20px 0px 435px;
+  }
+  audio{
+    margin: 0px 20px 0px 0px;
+  }
+  #msgbox{
+    position: absolute;
+    width: 170px;
+    height: 250px;
+    margin: 0px auto auto -50px;
+}
+  .labelButon{
+    top: 240px;
+    margin: auto auto auto -120px;
+}
+.cookies-card {
+  position: fixed;
+  bottom: 2em;
+  left: 0em;
+  top:500px;
+  width: 250px;
+  background-color: #242424;
+}
+.re{
+  margin: auto auto auto 360px;
+}
+
+.cookies-card * {
+  height: 20%;
+  color: white;
+}
+
+}
+@media screen and (min-width:1440px) and (max-width:1800px) {
+  .test2 input{
+    margin: -500px auto auto 650px;
+  }
+  audio{
+    margin: 0px 20px 0px 0px;
+  }
+  .test3 span{
+    margin: 0px 20px 0px 695px;
+  }
+  .re{
+    margin: auto auto auto 610px;
+  }
+}
