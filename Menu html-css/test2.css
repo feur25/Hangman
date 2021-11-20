@@ -1,0 +1,524 @@
+body{
+  display:block;
+}
+.menu {
+    display: block;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    margin: 80px 100px 50px 100px;
+    width: 12S0px;
+  }
+  
+  .menu a {
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .menu .hidden{
+    display: none;
+    float: right;
+    font-size: 16px;
+    padding: 14px 16px;
+    color: white;
+    background-color: #ddd;
+  }
+  .hidden:hover{
+    background-color: red;
+  }
+  .hidden:focus .menu a{
+    display: block;
+  }
+  .one {
+    float: left;
+    overflow: hidden;
+    display: block;
+  }
+  .important1{
+    float: left;
+    overflow: hidden;
+    display: block;
+  }
+  .important1 .mega-menu {
+    display: block;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit; 
+    margin: 0; 
+  }
+
+  .one .sous-menu {
+    display: block;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit; 
+    margin: 0; 
+  }
+    
+  .menu a:hover, .important1:hover .mega-menu {
+    background-color: red;
+    cursor: pointer;
+  }
+  .menu a:hover, .one:hover .sous-menu {
+    cursor: pointer;
+    background-color: red;
+  }
+  
+  .two {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin: auto ;
+  }
+  .important2{
+    display: none;
+    position: absolute;
+    margin: auto auto auto 100px;
+    width: 100%;
+  }
+  
+  
+  .column {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 300px;
+    background-color: #ccc;
+    height: auto;
+  }
+    .menu .nombre1{
+      overflow: hidden;
+      width: 1705px;
+      background-color: #333;
+      font-family: Arial;
+      margin:auto auto auto -663px;
+      height: 450px;
+  }
+  .categories p{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: -350px auto auto 680px;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  .column2 {
+    display: none;
+    float: left;
+    width: 200px;
+    margin: -50px auto auto 300px;
+    background-color: #ccc;
+    height:auto ;
+  }
+  
+  .column2 a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column2 a:hover {
+    background-color: red;
+  }
+  .column3 {
+    display: none;
+    float: left;
+    width: 200px;
+    margin: -70px auto auto -200px;
+    background-color: #ccc;
+    height:auto ;
+  }
+  
+  .column3 a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column3 a:hover {
+    background-color: red;
+  }
+  
+  .brute:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .one:hover .two{
+    display: block;
+  }
+  .important1:hover .important2{
+    display: block;
+  }
+ .super:hover .column2{
+    display:block;
+  }
+  .super2:hover .column3{
+    display: block;
+  }
+  #color1:hover{
+    background-color: red;
+  }
+  #color2:hover{
+    background-color: red;
+  }
+  #color3:hover{
+    background-color: red;
+  }
+  strong{
+    display:none;
+  }
+  h1{
+    color:white;
+  }
+  span{
+    color: white;
+  }
+  .important2:hover span{
+    visibility: visible;
+  }
+  .blue-frame{
+    overflow: hidden;
+    background-color: rgba(23, 23, 194, 0.705);
+    font-family: Arial;
+    font-size: auto;
+    padding: 14px 16px;
+    height: 40px;
+  }
+.nombre1 img{
+  margin: 20px auto auto 20px;
+  width: 640px;
+  height: 350px;
+}
+.nombre1 #boutton2{
+  margin: 20px auto auto auto;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: aqua;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nombre1 #boutton2:hover{
+  background-color: coral;
+  cursor: pointer;
+}
+.nombre1 #boutton3{
+  margin: 20px auto auto auto;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: aqua;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nombre1 #boutton3:hover{
+  background-color: coral;
+  cursor: pointer;
+}
+.description p{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: -530px auto auto 980px;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.description span{
+  float: left;
+  font-size: 16px;
+  color: white;
+  margin: -510px auto auto 980px;
+  color: rgba(99, 99, 99, 0.158);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.check{
+  float: left;
+  overflow: hidden;
+}
+.check .blog {
+  display: block;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; 
+  margin: 0; 
+}
+.blog:hover{
+  cursor: pointer;
+  background-color: red;
+}
+.check:hover .all{
+  display: block;
+  background-color: aqua;
+}
+.cacher p{
+  color: white;
+  font-size: 20px;
+  margin: -25px auto auto 20px;
+}
+.cacher span{
+  color: rgba(73, 69, 69, 0.404);
+  font-size: 13px;
+  margin: -25px auto auto 20px;
+}
+.cacher #boutton5{
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  margin: -25px auto auto 20px;
+}
+.cacher #boutton5:hover{
+  cursor: pointer;
+  background-color: red;
+}
+.all #img1{
+  margin: 20px auto 20px 20px;
+}
+.all #img2{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: -445px auto auto 550px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.all #img3{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: -442px auto auto 1100px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.all{
+  display: none;
+  position: absolute;
+  width:1703px;
+  margin: auto auto 200px -714px;
+  height: 470px;
+  background-color: aqua;
+}
+.cacher2 p{
+  color: white;
+  font-size: 20px;
+  margin: -172px auto auto 570px;
+}
+.cacher2 span{
+  color: rgba(73, 69, 69, 0.404);
+  font-size: 13px;
+  margin: -25px auto auto 570px;
+}
+.cacher2 input{
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  margin: -25px auto auto 580px;
+}
+.cacher2 input:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.cacher3 p{
+  color: white;
+  font-size: 20px;
+  margin: -172px auto auto 1125px;
+}
+.cacher3 span{
+  color: rgba(73, 69, 69, 0.404);
+  font-size: 13px;
+  margin: -25px auto auto 1125px;
+}
+.cacher3 input{
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  margin: -25px auto auto 1150px;
+}
+.cacher3 input:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.check2{
+  float: left;
+  overflow: hidden;
+}
+.check2 .images {
+  display: block;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; 
+  margin: 0; 
+}
+.images:hover{
+  cursor: pointer;
+  background-color: red;
+}
+.check3{
+  float: left;
+  overflow: hidden;
+}
+.check3 .contact {
+  display: block;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; 
+  margin: 0; 
+}
+.contact:hover{
+  cursor: pointer;
+  background-color: red;
+}
+#ron1{
+  background:#bfd70e;
+  border-radius:50%;
+  width:160px;
+  height:160px;
+  border:2px solid #679403; 
+}
+.picture{
+  display: none;
+  position: absolute;
+  width: 1703px;
+  margin: auto auto 200px -814px;
+  height: 310px;
+  background-color: aqua;
+}
+.check2:hover .picture{
+  display:block;
+}
+.html5 p {
+  font-size:22px;
+  font-family: Arial;
+  margin: 10px auto auto 20px;
+}
+.html5 img{
+  width: 390px;
+  height: 250px;
+  margin: auto auto auto 20px;
+}
+.CSS3 p{
+  font-size: 22px;
+  font-family: Arial;
+  margin: -280px auto auto 445px;
+}
+.CSS3 img{
+  width: 390px;
+  height: 250px;
+  margin: auto auto auto 445px;
+}
+.js p{
+  font-size: 22px;
+  font-family: Arial;
+  margin: -280px auto auto 870px;
+}
+.js img{
+  width: 390px;
+  height: 250px;
+  margin: auto auto auto 870px;
+}
+.PHP p{
+  font-size: 22px;
+  font-family: Arial;
+  margin: -280px auto auto 1300px;
+}
+.PHP img{
+  width: 390px;
+  height: 250px;
+  margin: auto auto auto 1300px;
+}
+@media screen and (min-width:1440px) and (max-width:1800px) {
+  .nombre1 img{
+    margin: 10px auto 10px 10px;
+    width: 350px;
+    height: 200px;
+  }
+}
+@media screen and (min-width:860px) and (max-width:1440px) {
+  .nombre1 img{
+    margin: 10px auto 10px 10px;
+    width: 250px;
+    height: 150px;
+  }
+  .menu .nombre1{
+    height: 250px;
+  }
+}
+@media screen and (min-width:500px) and (max-width:781px) {
+  .menu {
+    display: block;
+  }
+  .menu .hidden{
+    display: block;
+  }
+  .important1 .mega-menu {
+    display: none;
+}
+.one .sous-menu {
+  display: none;
+}
+.check .blog {
+  display: none;
+}
+.check2 .images {
+  display: none;
+}
+.check3 .contact {
+  display: none;
+}
+  .menu a {
+    display: none;
+  }
+}

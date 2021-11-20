@@ -1,0 +1,573 @@
+.Menu-bar{
+  display: block;
+  margin: 80px 100px 50px 100px;
+  overflow: hidden;
+  background-color: #23364B;
+}
+.Menu-bar li{
+  display:none;
+  font-size: 50px;
+  color: rgb(97, 97, 226);
+  float: right;
+  background-color: cadetblue;
+}
+.Menu-bar a{
+  color: white;
+  padding: 14px 16px;
+  border-left: 1px dotted rgba(167, 167, 167, 0.479);
+  float: left;
+  display: block;
+}
+.Menu-bar a:hover{
+  background-color: #F36428;
+  cursor: pointer;
+}
+.Menu-bar #acceuil-button{
+  background-color: #F36428;
+}
+.sous-menu1 a{
+  background-color: #365670;
+  display: none;
+  font-size: 25px;
+  padding: 16px; 
+  text-align: center;
+  text-decoration: none;
+}
+.Menu-bar .sous-menu:hover .sous-menu1 a{
+  display: block;
+}
+.droite:hover .droite2{
+  display: block;
+}
+.droite2{
+  display:none;
+}
+.sous-menu #bouton{
+  margin: auto auto auto 20px;
+}
+.gauche:hover .gauche2{
+  display: block;
+}
+.gauche2{
+  position: absolute;
+  width: 270px;
+  display:none;
+  color: #FFF;
+  float:left;
+  top: 210px;
+  left: 0px;
+}
+.gauche2 a{
+  width: 175px;
+  text-align: left;
+  background-color: #547787;
+}
+.droite2 a {
+  width: 175px;
+  text-align: left;
+  background-color: #547787;
+}
+.droite2{
+  position: absolute;
+  display:none;
+  color: #FFF;
+  float:left;
+  width: 270px;
+  top: 155px;
+  left: 510px;
+}
+.droite #test{
+  position: absolute;
+  top: 155px;
+  left: 208px;
+  width: 270px;
+}
+.gauche #test2{
+  position: absolute;
+  top: 210px;
+  left: 208px;
+  width: 270px;
+}
+.sous-menu1 #test3{
+  position: absolute;
+  top: 265px;
+  left: 208px;
+  width: 270px;
+}
+.mega-menu:hover .barre-mega-menu{
+  display: block;
+}
+.barre-mega-menu{
+  position: absolute;
+  background-color: #365670;
+  display: none;
+  top: 155px;
+  text-align: left;
+}
+.barre-mega-menu p{
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #365670;
+  font-size: 25px;
+  display: inline;
+  text-align: left;
+}
+.fonction p{
+  margin: auto auto auto 20px;
+}
+.fonction-image{
+  background-color: #547787;
+}
+.fonction-image img{
+  margin: 20px;
+  width: 600px;
+  height: auto;
+}
+.categories-text{
+  background-color: #547787;
+}
+.categories-text p{
+  font-size: 18px;
+  margin: auto auto auto 20px;
+  background-color: #547787;
+}
+.categories p{
+  margin: auto auto auto 20px;
+}
+.categories-text input{
+  background-color:#2987C5;
+  font-size: 18px;
+  cursor: pointer;
+}
+.categories-text input:hover{
+  background-color:  #F36428;
+}
+.description-text{
+  background-color: #547787;
+  max-height: 420px;
+}
+.description p{
+  margin: auto auto auto 20px;
+}
+.description-text p{
+  font-size: 18px;
+  margin: auto auto auto 20px;
+  background-color: #547787;
+}
+.description-text span{
+  font-size: 18px;
+  color: #CCC;
+  margin: auto auto auto 20px;
+}
+.description-text input{
+  background-color:#2987C5;
+  font-size: 18px;
+  cursor: pointer;
+}
+.description-text input:hover{
+  background-color:  #F36428;
+}
+.icon-text{
+  background-color: #547787;
+}
+.icon-text p{
+  background-color: #547787;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  margin: auto auto auto 20px;
+}
+.icon{
+  background-color: #365670;
+  margin: -386px auto auto 1280px;
+  width: 424px;
+}
+.icon p{
+  margin: auto auto auto 20px;
+  cursor: pointer;
+}
+.icon-text a,i{
+  color: white;
+}
+.categories{
+  margin: -410px auto auto 680px;
+  cursor: pointer;
+}
+.description{
+  margin: -306px auto auto 880px;
+  cursor: pointer;
+}
+.icon-text #rond1{
+  width: 5px;
+  height: 5px;
+  background: #2987C5;
+  position: relative;
+  border-radius: 100%;
+}
+.icon-text #rond2{
+  width: 5px;
+  height: 5px;
+  background: #2987C5;
+  position: relative;
+  border-radius: 100%;
+}
+.icon-text #rond3{
+  width: 5px;
+  height: 5px;
+  background: #2987C5;
+  position: relative;
+  border-radius: 100%;
+}
+.icon-text #rond4{
+  width: 5px;
+  height: 5px;
+  background: #2987C5;
+  position: relative;
+  border-radius: 100%;
+}
+.icon-text #rond5{
+  width: 5px;
+  height: 5px;
+  background: #2987C5;
+  position: relative;
+  border-radius: 100%;
+}
+.frame{
+  display: none;
+  background-color: #547787;
+  top: 153px;
+  position: absolute;
+  height: 480px;
+}
+.blog:hover .frame{
+  display: block;
+}
+.frame1 img{
+  margin: 20px auto auto auto;
+}
+.frame1 p{
+  color: #FFF;
+  display: flex;
+  margin: auto auto auto 20px;
+}
+.frame1 span{
+  color: #CCC;
+  display: flex;
+  margin: auto auto auto 20px;
+}
+.frame1 input{
+  background-color:#2987C5 ;
+  font-size: 18px;
+  display: flex;
+  margin: auto auto auto 20px;
+  cursor: pointer;
+}
+.frame1 input:hover{
+  background-color:#F36428 ;
+}
+.frame1{
+  margin: auto auto auto 20px;
+}
+.frame2{
+  margin: -440px auto auto 580px;
+}
+.frame3{
+  margin: -440px auto auto 1134px;
+}
+.frame2 p{
+  color: #FFF;
+  display: flex;
+  margin: auto auto auto 20px;
+}
+.frame span{
+  width: 550px;
+}
+.frame2 span{
+  color: #CCC;
+  display: flex;
+  margin: auto auto auto 20px;
+}
+.frame2 input{
+  background-color:#2987C5 ;
+  font-size: 18px;
+  display: flex;
+  margin: auto auto auto 20px;
+  cursor: pointer;
+}
+.frame2 input:hover{
+  background-color:#F36428 ;
+}
+.frame3 p{
+  color: #FFF;
+  display: flex;
+  margin: auto auto auto 20px;
+}
+.frame3 span{
+  color: #CCC;
+  display: flex;
+  margin: auto auto auto 20px;
+}
+.frame3 input{
+  background-color:#2987C5 ;
+  font-size: 18px;
+  display: flex;
+  margin: auto auto auto 20px;
+  cursor: pointer;
+}
+.frame3 input:hover{
+  background-color:#F36428 ;
+}
+.picture-text{
+  display: none;
+  background-color: #365670;
+  position: absolute;
+  margin: 73px auto auto auto;
+  width: 1704px;
+  height: 270px;
+}
+.picture:hover .picture-text{
+  display: block;
+}
+.html5 p{
+  color: white;
+  font-size: 20px;
+  margin:auto auto 10px 20px;
+}
+.css3{
+  margin: -255px auto auto 450px;
+}
+.css3 p{
+  color: white;
+  font-size: 20px;
+  margin: auto auto 10px auto;
+}
+.JavaScript p{
+  color: white;
+  font-size: 20px;
+  margin: auto auto 10px auto;
+}
+.php p{
+  color: white;
+  font-size: 20px;
+  margin: auto auto 5px auto;
+}
+.php img{
+  width: 400px;
+  height: 220px;
+}
+.css3 img{
+  width: 400px;
+  height: 220px;
+}
+.html5 img{
+  margin: auto auto auto 20px;
+  width: 400px;
+  height: 220px;
+}
+.JavaScript img{
+  width: 400px;
+  height: 220px;
+}
+.JavaScript{
+  margin: -258px auto auto 880px;
+}
+.php {
+  margin: -258px auto auto 1300px;
+}
+@media screen and (max-width: 738px){
+  .Menu-bar #cacher{
+    display: block;
+    color: #365670;
+    background-color: #CCC;
+  }
+  .all{
+    display: none;
+  }
+  .petit-test{
+    display: block;
+    position: relative;
+  }
+  .petit-test:hover .all{
+    display: block;
+  }
+  .petit-test:focus{
+    display: block;
+  }
+  #cacher:hover{
+    color:#365670;
+    cursor: pointer;
+  }
+  .php img{
+    width: auto;
+    height: auto;
+  }
+  .css3 img{
+    width: auto;
+    height: auto;
+  }
+  .html5 img{
+    width: auto;
+    height: auto;
+    margin: auto auto auto auto;
+  }
+  .JavaScript img{
+    width: auto;
+    height: auto;
+  }
+  .JavaScript{
+    margin: auto auto auto auto;
+  }
+  .php {
+    margin: auto auto auto auto;
+  }
+  .css3{
+    margin: auto auto auto auto;
+  }
+  .php img{
+    width: 460px;
+  }
+  .php p{
+    margin: -5px auto 20px -400px;
+  }
+  .JavaScript p{
+    margin: -5px auto 20px -340px;
+  }
+  .css3 p{
+    margin: -5px auto 20px -400px;
+  }
+  .Menu-bar #acceuil-button{
+    height: 40px;
+    margin: 20px auto auto -320px;
+  }
+  .Menu-bar #services{
+    height: 40px;
+    margin: 20px auto auto -330px;
+  }
+  .Menu-bar #portfolio{
+    height: 40px;
+    margin: 20px auto auto -320px;
+  }
+  .Menu-bar #mega-menu{
+    height: 40px;
+    margin: 20px auto auto -310px;
+  }
+  .Menu-bar #blog{
+    height: 40px;
+    margin: 20px auto auto -360px;
+  }
+  .Menu-bar #images{
+    height: 40px;
+    margin: 20px auto auto -340px;
+  }
+  .Menu-bar #contact{
+    height: 40px;
+    margin: 20px auto auto -330px;
+  }
+  .html5 p{
+    margin: 10px auto 20px -400px;
+  }
+  .picture-text{
+    position: relative;
+    margin: auto auto auto auto;
+    width: auto;
+    height: auto;
+  }
+  .frame2{
+    margin: auto auto auto auto;
+  }
+  .frame1{
+    margin:auto auto auto auto;
+  }
+  .frame3{
+    margin: auto auto auto auto;
+  }
+  .frame span{
+    width: auto;
+  }
+  .description{
+    margin: auto auto auto auto;
+  }
+  .icon{
+      margin: auto auto auto auto;
+      width: auto;
+  }
+  .Menu-bar{
+    display: block;
+    text-align: center;
+  }
+  .gauche2{
+    position: relative;
+    float:none;
+    width: auto;
+    top:auto;
+    left: auto;
+  }
+  .gauche2 a{
+    width: auto;
+    text-align: center;
+  }
+  .droite2 a {
+    width: auto;
+    text-align: center;
+  }
+  .sous-menu #bouton{
+    margin: auto auto auto 290px;
+  }
+  .droite2{
+    position: relative;
+    float:none;
+    width: auto;
+    top:auto;
+    left: auto;
+  }
+  .Menu-bar a{
+    display: block;
+    float: none;
+    position: relative;
+  }
+  .sous-menu1 a{
+    display: none;
+  }
+  .Menu-bar .sous-menu:hover .sous-menu1 a{
+    display: block;
+  }
+  .droite #test{
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+  }
+  .frame{
+    top:auto;
+  }
+  .gauche #test2{
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+  }
+  .sous-menu1 #test3{
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+  }
+  .barre-mega-menu{
+    position: relative;
+    top: auto;
+  }
+  .fonction-image img{
+    width: auto;
+    height: auto;
+  }
+  .icon-text p{
+    margin: -20px auto auto 40px;
+  }
+  .categories{
+    margin: auto auto auto auto;
+  }
+  .frame{
+    position: relative;
+    height: auto;
+  }
+}
